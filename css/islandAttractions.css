@@ -1,0 +1,513 @@
+/*Root Settings*/
+* {
+	/*outline : 1px solid #F00;*/
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+.navHyper div a:first-of-type {
+	color: #FF8500;
+}
+.top {
+	background-image: url("../pic/islandAttractions.jpg");
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 60vh;
+}
+.topMain {
+	color: #FFF;
+	display: inline-block;
+	font-size: 14px;
+	margin: auto;
+	line-height: 45px;
+	padding: 30px;
+	margin-top: 130px;
+}
+.topText {
+	border: 2px solid #FFF;
+	cursor: default;
+	padding-top: 20px;
+	text-align: center;
+}
+.topText h2 {
+	border-radius: 10px;
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+}
+.topText p {
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 20px;
+}
+.info {
+	background-color: #FF8500;
+	padding: 50px 0;
+}
+.info h3 {
+	color: #FFF;
+	font-size: 24px;
+	line-height: 48px;
+	text-align: center;
+}
+.info p {
+	color: #FFF;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+}
+.infoBox {
+	background-color: #FFF;
+	border: 2px solid #EEE;
+	border-radius: 15px;
+	padding: 30px 0;
+	margin: auto;
+	margin-top: 30px;
+}
+.infoImg {
+	border: 2px solid #FF8500;
+	border-radius: 50%;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.infoImg img {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin: 10%;
+	padding: 13%;
+}
+.infoText h4 {
+	color: #00A0E9;
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.infoText p {
+	color: #999;
+	font-size: 14px;
+}
+.recommend {
+	text-align: center;
+	padding-top: 30px;
+}
+.recommend h3 {
+	color: #00A0E9;
+	font-size: 24px;
+	line-height: 48px;
+	padding: 15px 0;
+}
+.recommend p {
+	color: #999;
+	font-size: 18px;
+	line-height: 36px;
+	padding-bottom: 30px;
+}
+.recommendIsland {
+	margin: auto;
+}
+.recommendImg {
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.recommendImg img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.recommendText {
+	display: block;
+	margin: auto;
+	position: relative;
+}
+.recommendText:before {
+	content:'';
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 25px 25px;
+	border-color: transparent transparent #FFF transparent;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+}
+.recommendText h4 {
+	color: #FF8500;
+	font-size: 18px;
+	line-height: 36px;
+	padding: 15px 0;
+}
+.recommendText p {
+	color: #999;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: justify;
+}
+.attractionsRecommend {
+	background-color: #00A0E9;
+	position: relative;
+	left: 0;
+	top: 0;
+	padding-bottom: 30px;
+}
+.attractionsRecommend:before {
+	content:'';
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 25px 25px;
+	border-color: transparent transparent #00A0E9 transparent;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+}
+.orangeBG {		
+	background-color:#FF8500;
+}
+.orangeBG:before {
+	content:'';
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 25px 25px;
+	border-color: transparent transparent #FF8500 transparent;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+}
+.attractionsRecommend h4 {
+	color: #FFF;
+	font-size: 24px;
+	line-height: 48px;
+	padding-top: 30px;
+}
+.hotAttractions {
+	background-color: #FFF;
+	border: 2px solid #EEE;
+	margin: 30px auto;
+}
+.attractionsImg {
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.7%;
+	position: relative;
+}
+.attractionsImg img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.attractionsText {
+	text-align: center;
+}
+.attractionsText h5 {
+	color: #FF8500;
+	font-size: 18px;
+	line-height: 36px;
+	margin: 10px 0;
+}
+.attractionsText p {
+	color: #999;
+	font-size: 14px;
+	line-height: 28px;
+	padding: 0 10px 30px;
+	text-align: left
+}
+.moreIsland {
+	text-align: center;
+}
+.moreIsland h3 {
+	color: #FF8500;
+	font-size: 24px;
+	line-height: 48px;
+	padding: 15px 0;
+}
+.moreIsland p {
+	color: #999;
+	font-size: 18px;
+	line-height: 36px;
+	padding-bottom: 30px;	
+}
+.moreislandBar {
+	font-size: 0;
+}
+.moreislandBox {
+	display: inline-block;
+}
+.moreislandBox a {
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.moreislandBox a img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.moreislandBox span {
+	border: 2px solid #FFF;
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	line-height: 60px;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.knowMore ,
+.addPlan {
+	display: inline-block;
+	border: 2px solid #CCC;
+	color: #999;
+	font-size: 14px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	margin: 10px 10px 20px;
+	transition: .3s;
+}
+.addPlan {
+	border: 2px solid #FF8500;
+	color: #FF8500;
+}
+.big {
+	margin-bottom: 50px;
+}
+.knowMore:hover {
+	color: #FF8500;
+	border-color: #FF8500;
+	transition: .3s;
+}
+.addPlan:hover {
+	background-color: #FF8500;
+	color: #FFF;
+	transition: .3s;
+}
+.attractionsRecommend {
+	display: none;
+}
+.open {
+	display: block;
+}
+#backTop {
+	background-color: #FFF;
+	border: 3px solid #999;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 1;
+	opacity: 0;
+	transition: 1s;
+}
+#backTop:after {
+	content: '';
+	width: 20px;
+	height: 3px;
+	background-color: #999;
+	position: absolute;
+	left: 12px;
+	top: 25px;
+	transform: rotate(135deg);
+}
+#backTop:before {
+	content: '';
+	width: 20px;
+	height: 3px;
+	background-color: #999;
+	position: absolute;
+	left: 24px;
+	top: 25px;
+	transform: rotate(45deg);
+}
+#backTop a {
+	border-radius: 50%;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*Pad CSS settings*/
+@media screen and( min-width: 768px ){
+}
+
+/*Desktop CSS Settings*/
+@media screen and ( min-width: 1200px ){
+	.top {
+		background-size: 100% 100%;
+		font-size: 0;
+		height: 100vh;
+		text-align: center;
+	}
+	.top:before {
+		content:'';
+		display: inline-block;
+		width: 0;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.topMain {
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: -50px;
+	}
+	.topText p {
+		font-size: 18px;
+	}
+	.info {
+		padding: 25px 0;
+		font-size: 0;
+		text-align: center;
+	}
+	.info h3 {
+		font-size: 32px;
+		line-height: 80px;
+		padding-top: 0;
+	}
+	.info p {
+		font-size: 24px;
+		line-height: 48px;
+	}
+	.infoBox {
+		display: inline-block;
+		vertical-align: top;
+		margin: 40px 1.6%;
+	}
+	.infoBox p {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.recommend h3 {
+		font-size: 32px;
+		padding: 30px 0;
+	}
+	.recommend > p {
+		font-size: 24px;
+		padding-bottom: 50px;
+	}
+	.recommendIsland {
+		font-size: 0;
+	}
+	.recommendImg , 
+	.recommendText {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.recommendImg {
+		padding-bottom: 32.3%;
+	}
+	.recommendRight {
+		left: 50%;
+	}
+	.recommendLeft {
+		right: 50%;
+	}
+	.recommendText p {
+		margin: auto;
+	}
+	.recommendText:before {
+		content:'';
+		display: block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 25px 25px 0;
+		border-color: transparent #FFF transparent transparent;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: -102%;
+		z-index: 1;
+	}
+	.attractionsRecommend {
+		font-size: 0;
+	}
+	.hotAttractions {
+		display: inline-block;
+		vertical-align: top;
+		margin: 40px 1.6%;
+	}
+	.attractionsRecommend {
+		padding-bottom: 0;
+	}
+	.moreIsland h3{
+		font-size: 32px;
+		padding: 50px 0 30px;
+	}
+	.moreIsland p {
+		font-size: 24px;
+	}
+	.moreislandBox {
+		overflow: hidden;
+	}
+	.moreislandBox img {
+		transition: all .5s;
+	}
+	.moreislandBox:hover img{
+		transform: scale(1.2);
+		opacity: .6;
+		transition: all .5s;
+	}
+	.btnRoom {
+		text-align: right;
+	}
+	.big {
+		margin-top: 0px;
+	}
+	.knowMore ,
+	.addPlan {
+		width: 76px;
+	}
+	.attractionsRecommend {
+		display: none;
+	}
+	.open {
+		display: block;
+	}
+	#backTop {
+		display: none;
+	}
+}

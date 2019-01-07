@@ -1,0 +1,408 @@
+/*Root Settings*/
+* {
+	/*outline : 1px solid #F00;*/
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+.navHyper div a:nth-of-type(2) {
+	color: #FF8500;
+}
+.top {
+	background-image: url("../pic/beachbar.jpg");
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	height: 60vh;
+}
+.topMain {
+	color: #FFF;
+	display: inline-block;
+	font-size: 14px;
+	margin: auto;
+	line-height: 45px;
+	padding: 30px;
+	margin-top: 130px;
+}
+.topText {
+	border: 2px solid #FFF;
+	cursor: default;
+	padding-top: 20px;
+	text-align: center;
+}
+.topText h2 {
+	border-radius: 10px;
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+}
+.topText p {
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 20px;
+}
+.info {
+	background-color: #FF8500;
+	padding: 50px 0;
+}
+.info h3 ,
+.place h3 ,
+.eat h3 ,
+.play h3 {
+	color: #FFF;
+	font-size: 24px;
+	line-height: 48px;
+	text-align: center;
+}
+.place h3 {
+	color: #FF8500;
+	padding: 30px 0;
+}
+.eat h3 {
+	color: #00A0E9;
+	padding: 30px 0;
+}
+.play h3 {
+	color: #FF8500;
+	padding: 30px ;
+}
+.info p ,
+.eat p , 
+.play p {
+	color: #FFF;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+}
+.eat p ,
+.play p {
+	color: #999;
+}
+.infoBox {
+	background-color: #FFF;
+	border: 2px solid #EEE;
+	border-radius: 15px;
+	padding: 30px 0;
+	margin: auto;
+	margin-top: 30px;
+}
+.infoImg {
+	border: 2px solid #FF8500;
+	border-radius: 50%;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.infoImg img {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin: 10%;
+	padding: 13%;
+}
+.infoText h4 {
+	color: #00A0E9;
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.infoText p {
+	color: #999;
+	font-size: 14px;
+}
+.placeBox {
+	margin: auto;
+	text-align: center;
+}
+.placeImg {
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.placeImg img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.placeText {
+	display: block;
+	margin: auto;
+	position: relative;
+}
+.placeText h4 {
+	color: #FF8500;
+	font-size: 18px;
+	line-height: 36px;
+	padding: 15px 0;
+}
+.placeText p {
+	color: #999;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: justify;
+}
+.eatBG {
+	display: none;
+}
+.eatBox ,
+.playBox {
+	background-color: #FFF;
+	border: 2px solid #EEE;
+	margin: 30px auto;
+}
+.eatImg ,
+.playImg {
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.7%;
+	position: relative;
+}
+.eatImg img ,
+.playImg img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.eatText ,
+.playText {
+	text-align: center;
+}
+.eatText h4 ,
+.playText h4 {
+	color: #FF8500;
+	font-size: 18px;
+	line-height: 36px;
+	margin: 10px 0;
+}
+.playText h4 {
+	color: #00A0E9;
+}
+.eatText p ,
+.playText p {
+	color: #999;
+	font-size: 14px;
+	line-height: 28px;
+	padding: 0 10px 30px;
+	text-align: left
+}
+.btnRoom {
+	display: block;
+	margin: auto;
+	font-size: 0;
+	text-align: center;
+}
+.knowMore ,
+.addPlan {
+	display: inline-block;
+	border: 2px solid #CCC;
+	color: #999;
+	font-size: 14px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	margin: 10px 10px 20px;
+	transition: .3s;
+}
+.addPlan {
+	border: 2px solid #FF8500;
+	color: #FF8500;
+}
+.big {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.knowMore:hover {
+	color: #FF8500;
+	border-color: #FF8500;
+	transition: .3s;
+}
+.addPlan:hover {
+	background-color: #FF8500;
+	color: #FFF;
+	transition: .3s;
+}
+#backTop {
+	background-color: #FFF;
+	border: 3px solid #999;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 1;
+	opacity: 0;
+	transition: 1s;
+}
+#backTop:after {
+	content: '';
+	width: 20px;
+	height: 3px;
+	background-color: #999;
+	position: absolute;
+	left: 12px;
+	top: 25px;
+	transform: rotate(135deg);
+}
+#backTop:before {
+	content: '';
+	width: 20px;
+	height: 3px;
+	background-color: #999;
+	position: absolute;
+	left: 24px;
+	top: 25px;
+	transform: rotate(45deg);
+}
+#backTop a {
+	border-radius: 50%;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*Pad CSS settings*/
+@media screen and( min-width: 768px ){
+}
+
+/*Desktop CSS Settings*/
+@media screen and ( min-width: 1200px ){
+	.top {
+		background-size: 100% 100%;
+		font-size: 0;
+		height: 100vh;
+		text-align: center;
+	}
+	.top:before {
+		content:'';
+		display: inline-block;
+		width: 0;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.topMain {
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: -50px;
+	}
+	.topText p {
+		font-size: 18px;
+	}
+	.info {
+		padding: 25px 0;
+		font-size: 0;
+		text-align: center;
+	}
+	.info h3 {
+		font-size: 32px;
+		line-height: 80px;
+		padding-top: 0;
+	}
+	.info p ,
+	.eat p ,
+	.play p {
+		font-size: 24px;
+		line-height: 48px;
+	}
+	.infoBox {
+		display: inline-block;
+		vertical-align: top;
+		margin: 40px 1.6%;
+	}
+	.infoBox p {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.place h3 ,
+	.eat h3 ,
+	.play h3 {
+		font-size: 32px;
+		padding-bottom: 50px;
+	}
+	.eat h3 ,
+	.play h3{
+		padding-bottom: 30px;
+	}
+	.place ,
+	.eat ,
+	.play {
+		padding-top: 50px;
+		font-size: 0;
+	}
+	.placeImg , 
+	.placeText {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.placeImg {
+		padding-bottom: 28.125%;
+	}
+	.placeText p {
+		margin: auto;
+	}
+	.eatBG {
+		background-image: url("../pic/IslandFood.jpg");
+		background-size: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		display: block;
+		height: 40vh;
+	}
+	.eat , 
+	.play {
+		text-align: center;
+	}
+	.eatBox ,
+	.playBox {
+		display: inline-block;
+		vertical-align: top;
+		margin: 40px 1.6%;
+	}
+	.eatText h4 ,
+	.playText h4 {
+		color: #FF8500;
+		font-size: 18px;
+		line-height: 36px;
+		margin: 10px 0;
+	}
+	.eatText p ,
+	.playText p{
+		color: #999;
+		font-size: 14px;
+		line-height: 28px;
+		padding: 0 10px 30px;
+		text-align: left
+	}
+	.playBG {
+		background-image: url("../pic/playBG.jpg");
+		background-size: 100% 100%;
+		background-position: ;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		height: 36vh;
+	}
+	.btnRoom {
+		text-align: right;
+	}
+	.knowMore ,
+	.addPlan {
+		width: 76px;
+	}
+	#backTop {
+		display: none;
+	}
+}
